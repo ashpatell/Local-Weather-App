@@ -1,0 +1,61 @@
+* {
+  font-family: "Lora", serif;
+}
+body {
+  background-image: url("https://static.pexels.com/photos/3768/sky-sunny-clouds-cloudy.jpg");
+  background-size: 100%;
+}
+
+.header {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3em;
+  p {
+    margin-top: 0;
+    font-size: 0.4em;
+  }
+}
+
+.box {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5%;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 500px;
+  color: white;
+}
+
+.city {
+  text-align: center;
+  font-size: 1.5em;
+}
+.temp {
+  text-align: center;
+  font-size: 2em;
+}
+.detail {
+  text-align: center;
+  font-size: 1.5em;
+}
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+  width: auto;
+}
+.button {
+  padding: 8px;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3e3e3e;
+  border: none;
+  border-radius: 50%;
+  &:hover {
+    background-color: #242830;
+  }
+  &:active {
+    transform: scale(0.8);
+  }
+}
